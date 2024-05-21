@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter";
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 384px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 11%;
+    border-radius: 15px;
+}
+
+.insideCard {
+    padding: 15px;
+}
+
+.profileImg img{
+    border-radius: 100px;
+    height: 88px;
+    width: 88px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.name{
+    margin-top: 24px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-top: -12px;
+    font-weight: bold;
+}
+
+.bio{
+    text-align: center;
+    margin: 24px 0 24px 0;
+}
+
+.links {
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border-top: 4px solid hsl(0, 0%, 20%);
+    border-bottom: 4px solid hsl(0, 0%, 20%);
+    margin-bottom: 16px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: hsl(0, 0%, 20%);
+}
+
+.links.hovered {
+    background-color: hsl(75, 94%, 57%);
+    border-top: 4px solid hsl(75, 94%, 57%);
+    border-bottom: 4px solid hsl(75, 94%, 57%);
+}
+
+ /* En dessous de 375 px */
+ @media screen and (max-width: 375px) {
+    .card {
+        margin-top: 30%;
+        width: 327px;
+    }
+}
